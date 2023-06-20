@@ -12,7 +12,7 @@ for (let i=0; i<inputs.length; i++) {
         switch (e.target.name) {
             case "Celcius":
                 FahrenheitInput.value = (value * 1.8) + 32;
-                FormulaInput.value = "(" + value + " * 1.8) + 32";
+                FormulaInput.value =  "(" + value + " *1.8) + 32";
                 break;
             case "Fahrenheit":
                 CelciusInput.value = (value - 32) / 1.8;
