@@ -11,37 +11,32 @@
     <title>Temperature Conversion</title>
 </head>
 <body>
-    <main>
-        <audio controls loop>
-            <source src="Overfly.mp3" type="audio/mp3"/>
-        </audio>  
+    <main> 
         <header>
             <h1>Temperature Conversion</h1>
         </header>
-        <h5>
             <center>
-            Masukkan suhu derajat (C/F) pada kotak dibawah dan hasil akan keluar secara otomatis
+                <h5>Masukkan suhu derajat (Celcius atau Fahrenheit) pada kotak dibawah ini dan hasil konversi akan tampil secara otomatis</h5>
             </center>
-        </h5>
         <div class="inputs">
             <input type="number" name="Celcius" id="Celcius" class="input" placeholder="Celcius">
             <input type="number" name="Fahrenheit" id="Fahrenheit" class="input" placeholder="Fahrenheit">
-            <input type="number" name="Calculation Formula" id="Calculation Formula" class="input" placeholder="Calculation Formula">
+            <input type="text" name="Formula" id="Formula" class="input" placeholder="Formula">
         </div>
+        <audio controls loop>
+            <source src="Overfly.mp3" type="audio/mp3"/>
+        </audio> 
     </main>
     <footer>
         <center>
-        <strong>
-        <h6>Konversi Dari Celsius (&deg;C) ke Fahrenhit (&deg;F)</h6>
+        <strong>Cara Konversi Dari Celsius (&deg;C) ke Fahrenhit (&deg;F)</strong>
         <hr>
-        <h6>
         <p>Suhu S dalam derajat Fahrenhit (&deg;F) sama dengan suhu S dalam derajat Celsius(&deg;C) kali 9/5 tambah 32</p>
         <p>S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32</p>
         <p>atau</p>
         <p>S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1.8) + 32</p>
-        </h6>
-        </strong>
         </center>
     </footer>
+    <script src="Js/Script.js" type="text/javascript"></script>
 </body>
 </html>
