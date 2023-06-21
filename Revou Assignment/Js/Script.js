@@ -24,7 +24,7 @@ for (let i=0; i<inputs.length; i++) {
                 FahrenheitInput.value = (value * 1.8) + 32;
 
                 // function to show the formula of celsius to fahrenheit conversion.
-                FormulaInput.value = "(" + value + " * 1.8) + 32";
+                FormulaInput.value = "(" + CelciusInput.value + " * 1.8) + 32 = " + FahrenheitInput.value + " °F";
                 break;
 
             // convert fahrenheit to celcius 
@@ -32,7 +32,7 @@ for (let i=0; i<inputs.length; i++) {
                 CelciusInput.value = (value - 32) / 1.8;
 
                 // function to show the formula of fahrenheit to celcius conversion.
-                FormulaInput.value = "(" + value + " - 32) / 1.8";
+                FormulaInput.value = "(" + FahrenheitInput.value + " - 32) / 1.8 = " + CelciusInput.value + " °C";
                 break;
         }
     });
